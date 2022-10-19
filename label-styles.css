@@ -21,7 +21,7 @@
    =============== */
 
 /*Alert Label*/
-.labelDanger h5, .alertWarn h5 {
+.labelDanger h5, .labelWarn h5 {
     font: var(--label-2);
     text-transform: uppercase;
 }
