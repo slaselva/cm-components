@@ -20,12 +20,11 @@
     COMPONENT STATES
    =============== */
 
-/*Label Alerts*/
+/*Alert Label*/
 .alertDanger h5, .alertWarn h5 {
     font: var(--label-2);
     text-transform: uppercase;
 }
-
 
 .alertDanger svg > path {
     fill: var(--danger);
@@ -41,4 +40,13 @@
 
 .alertWarn h5 {
     color: var(--warn);
+}
+
+/*Secondary Label*/
+.labelSecondary svg > path {
+    fill: var(--blue-500);
+}
+
+.labelSecondary h5 {
+    color: var(--blue-500);
 }
