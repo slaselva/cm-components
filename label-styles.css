@@ -1,0 +1,32 @@
+/* ===============
+    COMPONENT STYLES
+   =============== */
+
+.label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .25rem;
+    text-transform: capitalize;
+}
+
+.label h5 {
+    font: var(--h3);
+    color: var(--grey-1500);
+}
+
+
+/* ===============
+    COMPONENT STATES
+   =============== */
+
+/*Label Alerts*/
+.alertDanger svg > path {
+    fill: var(--danger);
+}
+
+.alertDanger h5 {
+    font: var(--label-2);
+    color: var(--danger);
+    text-transform: uppercase;
+}

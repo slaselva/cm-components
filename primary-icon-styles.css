@@ -1,0 +1,11 @@
+/* ===============
+    COMPONENT STYLES
+   =============== */
+
+.primaryIcon {
+    max-width: 1.5rem;
+}
+
+.primaryIcon > * {
+    display: block;
+}
