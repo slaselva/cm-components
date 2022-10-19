@@ -21,12 +21,24 @@
    =============== */
 
 /*Label Alerts*/
+.alertDanger h5, .alertWarn h5 {
+    font: var(--label-2);
+    text-transform: uppercase;
+}
+
+
 .alertDanger svg > path {
     fill: var(--danger);
 }
 
 .alertDanger h5 {
-    font: var(--label-2);
     color: var(--danger);
-    text-transform: uppercase;
+}
+
+.alertWarn svg > path {
+    fill: var(--warn);
+}
+
+.alertWarn h5 {
+    color: var(--warn);
 }
